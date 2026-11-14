@@ -9,6 +9,12 @@
 [![GitHub Stars](https://img.shields.io/github/stars/88lin/video_vip?style=flat&logo=github&label=Stars&color=f5c518)](https://github.com/88lin/video_vip/stargazers)
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-1f6feb.svg)](https://www.gnu.org/licenses/gpl-3.0.txt)
 [![下载脚本](https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD%E8%84%9A%E6%9C%AC-%E7%82%B9%E5%87%BB%E5%AE%89%E8%A3%85-2ea44f)](https://cdn.jsdelivr.net/gh/88lin/video_vip@main/video_vip.user.js)
+[![GitHub Forks](https://img.shields.io/github/forks/88lin/video_vip?style=flat&logo=github&label=Forks&color=0969da)](https://github.com/88lin/video_vip/network/members)
+[![Author](https://img.shields.io/badge/Author-88lin-8250df?style=flat&logo=github&logoColor=white)](https://github.com/88lin)
+
+<p align="center">
+<a href="https://trendshift.io/repositories/35754?utm_source=trendshift-badge&utm_medium=badge&utm_campaign=badge-trendshift-35754" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/35754/daily?language=JavaScript" alt="88lin%2Fvideo_vip | Trendshift" width="250" height="55"/></a> <a href="https://trendshift.io/repositories/35754?utm_source=trendshift-badge&utm_medium=badge&utm_campaign=badge-trendshift-35754" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/35754/weekly?language=JavaScript" alt="88lin%2Fvideo_vip | Trendshift" width="250" height="55"/></a>
+</p>
 
 **如果这个项目对你有帮助，请给一个 ⭐ Star 支持一下，开源不易，您的支持是我更新的动力！**
 
@@ -16,54 +22,36 @@
 
 </div>
 
+## 🌈 姊妹项目推荐
+
+> 同作者的其它开源作品，**全部免费**，按 ⭐ Star 数排序。[更多作品](https://dev.88lin.eu.org/)
+
+| 项目 | 一句话简介 | 链接 |
+| :--- | :--- | :--- |
+| ✨ **[workbuddy-auto-signin](https://github.com/88lin/workbuddy-auto-signin)** | 自动领取 WorkBuddy / Qoder CN 每日签到积分与成长中心全部奖励：签到、Buddy 旅行礼物、开盲盒、领任务、连登兑换、断登补签全覆盖。纯 Python 本地静默运行，一句话让 AI 配好定时任务，积分再也不漏领 <a href="https://github.com/88lin/workbuddy-auto-signin/stargazers"><img src="https://img.shields.io/github/stars/88lin/workbuddy-auto-signin?style=flat-square&logo=github&label=Stars&labelColor=0D1117&color=1F6FEB" alt="Stars" /></a> | — |
+| 💻 **[computer-repair-skill](https://github.com/88lin/computer-repair-skill)** | 把 Codex、Claude Code 变成你的跨平台电脑维修助手。64 个按需加载的 Playbook 覆盖诊断、清理、性能、网络与安全维护：C 盘爆满、电脑卡顿、流氓软件、数据恢复都能直接问，先取证、再动手 <a href="https://github.com/88lin/computer-repair-skill/stargazers"><img src="https://img.shields.io/github/stars/88lin/computer-repair-skill?style=flat-square&logo=github&label=Stars&labelColor=0D1117&color=07C160" alt="Stars" /></a> | [官网](https://repair.88lin.eu.org/) |
+| 🎧 **[lofi-radio-web](https://github.com/88lin/lofi-radio-web)** | 为学习工作场景打造的 Lofi Radio 网页版：macOS 灵动岛设计，收录 21 个精选电台，支持睡眠定时，打开即用无需下载。平稳节奏、循环旋律，公认的专注背景音首选 | [官网](https://lofi.88lin.eu.org) |
+| 🎨 **[GPT Image Studio](https://github.com/88lin/gpt-image-studio)** | 基于 OpenAI gpt-image-2.5 的图片生成 / 编辑 / 提示词工作台：多参考图、画板标注、遮罩编辑、Agent 多轮对话改图，内置大量中英文提示词模板一键套用，数据全部本地存储，隐私零上传 | [官网](https://88lin.github.io/gpt-image-studio) |
+| 🤖 **[agentrouter-auto-signin](https://github.com/88lin/agentrouter-auto-signin)** | 自动领取 AgentRouter 每日签到额度：支持多账号与余额自动换算，Win / macOS / Linux 定时任务本地静默运行，错过自动补签 —— 免费额度天天到账，不用再手动点 | — |
+
 ## 💖 赞助商
+
+> 想出现在这里？联系 [bytevian@qq.com](mailto:bytevian@qq.com)
 
 <table>
 <tr>
 <td width="180" align="center" valign="middle">
-  <a href="https://agentmore.chatglm.cn?Rawcode=PM9UPGFZAX8M"><img src="https://sfile.chatglm.cn/workspace/image/1c/1c83b94683.png" alt="AgentMore" width="150"></a>
+  <a href="https://agentrouter.org/register?aff=G5Sl"><img src="https://raw.githubusercontent.com/88lin/picx-images-hosting/master/90C5FAD072EA247822CB88BB32512A41.webp" alt="Agent Router" width="150"></a>
 </td>
-<td valign="middle"><b><a href="https://agentmore.chatglm.cn?Rawcode=PM9UPGFZAX8M">AgentMore</a></b>&nbsp;是智谱清言官方的多 Agent 云端协作平台，云端 7×24 小时运行、多任务并行，轻松组建专属 Agent 团队，可用GLM-5.3、GLM-5.3-Flash。双节活动期间（9月25日-10月7日）登录积分 ×10，普通用户日领2000积分，花出去的积分 100% 原路返还，单账号最多回血 15 万积分！</td>
+<td valign="middle"><b><a href="https://agentrouter.org/register?aff=G5Sl">Agent Router</a></b>&nbsp;是免费公益大模型API平台，支持Claude-opus-5.5、GPT-6 Astra、GPT-6.1 Sol、deepseek-v4-flash等主流模型，国内直连。注册送＄175（每日签到得＄25，被邀得＄50），支持GitHub/LinuxDo登录。</td>
 </tr>
 <tr>
 <td width="180" align="center" valign="middle">
-  <a href="https://agentrouter.org/register?aff=ugVO"><img src="https://cdn.jsdmirror.com/gh/88lin/picx-images-hosting@master/90C5FAD072EA247822CB88BB32512A41.webp" alt="Agent Router" width="150"></a>
+  <a href="https://www.sheapi.top/sign-up?aff=MvcR"><img src="https://raw.githubusercontent.com/88lin/picx-images-hosting/master/ScreenShot_2026-08-06_174058_726.webp" alt="SheApi" width="150"></a>
 </td>
-<td valign="middle"><b><a href="https://agentrouter.org/register?aff=ugVO">Agent Router</a></b>&nbsp;是免费公益大模型API平台，支持GPT-6-Astra、claude-opus-5、deepseek-v4-flash等主流模型，国内直连。注册送＄175（每日签到得＄25，被邀得＄50），支持GitHub/LinuxDo登录。</td>
-</tr>
-<tr>
-<td width="180" align="center" valign="middle">
-  <a href="https://anyrouter.top/register?aff=woX5"><img src="https://cdn.jsdmirror.com/gh/88lin/picx-images-hosting@master/微信图片_20260907170036_114_2.webp" alt="Any Router" width="150"></a>
-</td>
-<td valign="middle"><b><a href="https://anyrouter.top/register?aff=woX5">Any Router</a></b>&nbsp;是免费公益大模型API平台，可用GPT-6-Astra、claude-opus-5.5等顶级模型。被邀得＄50，每日签到随机额度。</td>
-</tr>
-<tr>
-<td width="180" align="center" valign="middle">
-  <a href="https://www.workbuddy.cn/events/invite?inviteCode=w0x2ic45z"><img src="https://download.codebuddy.cn/web/workbuddy/0bebf86e38e7d71ff0c313d661e7753ff996c54e/assets/workbuddy-logo-WhgOvEF7.png" alt="WorkBuddy" width="150"></a>
-</td>
-<td valign="middle"><b><a href="https://www.workbuddy.cn/events/invite?inviteCode=w0x2ic45z">WorkBuddy</a></b>&nbsp;是腾讯出品的全能 AI 工作台，是中国最受欢迎的效率 AI 智能体服务，说出要求、开始执行任务、交付完整成果。其中Hy4模型限时免费使用，注册即可获取2000积分，每月再赠送500积分，可用Kimi-K3、GLM-5.3、Deepseek-V4.1-Flash等模型。</td>
-</tr>
-<tr>
-<td width="180" align="center" valign="middle">
-  <a href="https://github.com/88lin/workbuddy-auto-signin"><img src="https://download.codebuddy.cn/web/workbuddy/0bebf86e38e7d71ff0c313d661e7753ff996c54e/assets/workbuddy-logo-WhgOvEF7.png" alt="JustDoWork" width="150"></a>
-</td>
-<td valign="middle"><b><a href="https://github.com/88lin/workbuddy-auto-signin">workbuddy-auto-signin</a></b>&nbsp;是一个可以自动领取 WorkBuddy 每日签到积分、Buddy 旅行礼物、派 Buddy 出发、开盲盒、领任务奖励、连登兑换、断登补签的自动化脚本。Windows / macOS 定时任务，一句话交给 AI 自动配好，零 Token 静默运行。</td>
-</tr>
-<tr>
-<td width="180" align="center" valign="middle">
-  <a href="https://lightvela.com/?ref=9TVZHV5GKS"><img src="https://lightvela.com/lightvela-logo.svg" alt="Agent Router" width="150"></a>
-</td>
-<td valign="middle"><b><a href="https://lightvela.com/?ref=9TVZHV5GKS">LightVela</a></b>&nbsp;是腾讯轻量云团队推出的云端 Agent 托管产品，它把 Agent 的部署、运维与 7×24 小时运行全部放在云端托管，支持跨会话记忆、连接主流聊天通道（微信、QQ、飞书、钉钉等），可自定义模型、工具、人设。新用户免费体验1个月，送 2核8G 云主机 + 4500 AI 积分。</td>
-</tr>
-<tr>
-<td width="180" align="center" valign="middle">
-  <a href="https://www.sheapi.top/sign-up?aff=MvcR"><img src="https://cdn.jsdmirror.com/gh/88lin/picx-images-hosting@master/ScreenShot_2026-08-06_174058_726.webp" alt="SheApi" width="150"></a>
-</td>
-<td valign="middle"><b><a href="https://www.sheapi.top/sign-up?aff=MvcR">SheApi</a></b>&nbsp;是一家可靠高效的 API 中转服务提供商，主要提供 gpt-6-astra、kimi-k3、grok-4.7、glm-5.3、deepseek-v4.1-flash 等主流模型的高稳定中转能力，Codex 倍率补贴低至 0.06，GPT-Image-2生图每张0.04。受邀注册送$1 体验金，每日签到还可领取专属免费额度。</td>
+<td valign="middle"><b><a href="https://www.sheapi.top/sign-up?aff=MvcR">SheApi</a></b>&nbsp;是一家可靠高效的 API 中转服务提供商，主要提供 GPT-6 Astra、kimi-k3、grok-4.7、glm-5.3、deepseek-v4.1-flash 等主流模型的高稳定中转能力，Codex 倍率补贴低至 0.06，GPT-Image-2生图每张0.04。受邀注册送$1 体验金，每日签到还可领取专属免费额度。</td>
 </tr>
 </table>
-
----
 
 ## 📖 项目概述
 

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name              全网VIP视频免费解析去广告【最新3.2】
 // @namespace         video_vip
-// @version           3.2.9
+// @version           3.2.11
 // @description       全网VIP视频免费破解去广告，支持爱奇艺、腾讯、优酷、芒果、哔哩哔哩等主流视频网站VIP视频解析，适配桌面端和移动端【脚本长期维护更新，完全免费，无广告，仅限学习交流！】
 // @license           GPL-3.0 License
 // @icon              https://cdn.jsdmirror.com/gh/88lin/picx-images-hosting@master/favicon.67xwxgc03y.svg
@@ -212,13 +212,13 @@ const superVip = (function () {
         fullscreenCleanupBound: false,
         videoParseList: [
             {"name": "无损云解析", "type": "1", "wsyzy": true},
-            {"name": "麒麟解析", "type": "1,3", "url": "https://free.maccms.xyz/?url="},
-            {"name": "TXNQ解析", "type": "1,3", "url": "https://bfq.txnp.cn/player?url="},
+            {"name": "臻享解析", "type": "1,3", "url": "https://aibox.eu.org/?url="},
+            {"name": "LX解析", "type": "1,3", "url": "https://jx.lxyy.club/index.php?url="},
             {"name": "七哥解析", "type": "1,3", "url": "https://jx.202617.xyz/tv.php?url="},
-            {"name": "fongmi解析", "type": "1,3", "url": "https://json.fongmi.cc/web?url="},
+            {"name": "TXNQ解析", "type": "1,3", "url": "https://bfq.txnp.cn/player?url="},
+            {"name": "789解析", "type": "1,3", "url": "https://jiexi.789jiexi.com/?url="},
             {"name": "冰豆解析", "type": "1,3", "url": "https://bd.jx.cn/?url="},
-			{"name": "HLS解析", "type": "1,3", "url": "https://jx.hls.one/?url="},
-            {"name": "Player-JY", "type": "1,3", "url": "https://jx.playerjy.com/?url="},
+            {"name": "麒麟解析", "type": "1,3", "url": "https://free.maccms.xyz/?url="},
         ],
         playerContainers: [
             {
@@ -1426,6 +1426,15 @@ const superVip = (function () {
                     GM_setValue(_CONFIG_.autoPlayerVal, oldVal + 1);
                 }
                 GM_setValue(migKey, true);
+            }
+            // 一次性索引迁移：videoParseList 在 index 1 插入了「臻享解析」，已存储索引 >= 1 的旧选择需要再 +1
+            const zxMigKey = 'zx_idx_migrated_' + window.location.host;
+            if (!GM_getValue(zxMigKey, false)) {
+                const zxOldVal = GM_getValue(_CONFIG_.autoPlayerVal, null);
+                if (typeof zxOldVal === 'number' && zxOldVal >= 1) {
+                    GM_setValue(_CONFIG_.autoPlayerVal, zxOldVal + 1);
+                }
+                GM_setValue(zxMigKey, true);
             }
             let mallCase = 'Default';
             let playerNode = _CONFIG_.playerContainers.filter(value => value.host === window.location.host);
