@@ -10,7 +10,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: carsteneu/mystarhistory@v1
+      - name: Check stargazers (honest skip on 0)
+        id: chk
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          n=$(gh api repos/${{ github.repository }} --jq -r .stargazers_count)
+          echo "stargazers_count=$n"
+          if [ "$n" -eq 0 ]; then
+            echo "N/A: repo has 0 stargazers, star history chart skipped (no chart to generate)"
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Generate star history
+        if: steps.chk.outputs.skip != 'true'
+        uses: carsteneu/mystarhistory@v1
         with:
           repos: ${{ github.repository }}
           token: ${{ secrets.STAR_HISTORY_TOKEN }}
