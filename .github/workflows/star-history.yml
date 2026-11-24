@@ -15,7 +15,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          n=$(gh api repos/${{ github.repository }} --jq -r .stargazers_count)
+          n=$(gh api "repos/${{ github.repository }}" --jq ".stargazers_count")
           echo "stargazers_count=$n"
           if [ "$n" -eq 0 ]; then
             echo "N/A: repo has 0 stargazers, star history chart skipped (no chart to generate)"
